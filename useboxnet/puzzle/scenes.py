@@ -312,7 +312,10 @@ class Game(object):
 
             # play a sound when scoring, alter the pitch based on chained scores
             if points:
-                self.scored.play().pitch = self.PITCH[self.combo_level] if self.combo_level < len(self.PITCH) else 1.0
+                try:
+                    self.scored.play().pitch = self.PITCH[self.combo_level] if self.combo_level < len(self.PITCH) else 1.0
+                except AttributeError:
+                    pass # 'directsound' driver will crash when setting the pitch; issue #638
 
             if self.combos:
                 # we may have more
