@@ -10,6 +10,8 @@ in diagonal (making the game a little bit more difficult).
 
 If a joystick / gamepad is present it will be used instead of the keyboard.
 
+Project website: http://www.usebox.net/jjm/ya-falling-blocks/
+
 
 Controls
 ========
@@ -45,11 +47,11 @@ Install
 You don't need to install the game, just run the *yafb* script in the
 "scripts" directory.
 
-If you really want to install the game you'll need setuptools. Try running:
+If you really want to install the game you'll need setuptools. Try running::
 
     python setup.py install
 
-To install the alpha version of Pyglet 1.2 you can run:
+To install the alpha version of Pyglet 1.2 you can run::
 
     pip install http://pyglet.googlecode.com/files/pyglet-1.2alpha1.tar.gz
 
