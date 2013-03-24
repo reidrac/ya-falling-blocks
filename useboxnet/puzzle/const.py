@@ -9,5 +9,5 @@ VERSION = "1.0"
 WIDTH = 600
 HEIGHT = 600
 
-AUDIO_DRIVERS = ('alsa', 'openal', 'silent',)
+AUDIO_DRIVERS = ('alsa', 'openal', 'directsound', 'silent',)
 
