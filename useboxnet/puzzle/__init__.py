@@ -91,7 +91,7 @@ class Main(Window):
             self.scene.close()
             self.scene = Menu(self.control, self.change_scene)
         else: # exit game
-            Window.close(self)
+            self.close()
 
     def update(self, dt):
         """Update scene state"""
