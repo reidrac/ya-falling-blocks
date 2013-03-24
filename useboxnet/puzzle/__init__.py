@@ -56,7 +56,11 @@ class Main(Window):
                                    caption=PROJECT_DESC,
                                    )
 
-        self.set_icon(pyglet.resource.image("piece0.png"))
+        try:
+            # only tested in Linux, may fail in other platforms
+            self.set_icon(pyglet.resource.image("piece0.png"))
+        except:
+            pass
 
         if self.args.debug:
             self.fps = pyglet.clock.ClockDisplay()
