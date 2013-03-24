@@ -2,7 +2,7 @@
 (yet again) Falling Blocks
 ==========================
 
-This is a falling block game (see Tetris or Columns) developed from scratch
+This is a "falling blocks" game (see Tetris or Columns) developed from scratch
 in a weekend to learn about Pyglet.
 
 The mechanics are pretty much like in Columns, although blocks can't be matched
@@ -16,31 +16,31 @@ Controls
 
 Keyboard:
 
- - Up: up arrow
- - Down: down arrow, speed the block
- - Left: left arrow
- - Right: right arrow
- - Action: space, swap blocks
- - Pause: p
- - Escape: esc
+- Up: up arrow
+- Down: down arrow, speed the block
+- Left: left arrow
+- Right: right arrow
+- Action: space, swap blocks
+- Pause: p
+- Escape: esc
 
 Joystick / Gamepad (when available):
 
- - Up: up
- - Down: down, speed the block
- - Left: left
- - Right: right
- - Action: button 1, swap blocks
- - Pause: button 3
- - Escape: button 4
+- Up: up
+- Down: down, speed the block
+- Left: left
+- Right: right
+- Action: button 1, swap blocks
+- Pause: button 3
+- Escape: button 4
 
 
 Install
 =======
 
- - Python 2.7
- - Pyglet 1.2 (alpha1)
- - AVbin (version 11 recommended, specially in Linux)
+- Python 2.7
+- Pyglet 1.2 (alpha1)
+- AVbin (version 11 recommended, specially in Linux)
 
 You don't need to install the game, just run the *yafb* script in the
 "scripts" directory.
