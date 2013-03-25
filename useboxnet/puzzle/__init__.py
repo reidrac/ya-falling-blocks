@@ -1,4 +1,5 @@
 import os
+import gc
 import logging
 from argparse import ArgumentParser
 
@@ -104,6 +105,8 @@ class Main(Window):
     def on_close(self):
         """The app is being terminated"""
         self.scene.close()
+        # avoid a crash on windows - issue #636
+        gc.collect()
         super(Main, self).on_close()
 
     def on_draw(self):
