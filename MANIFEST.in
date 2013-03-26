@@ -1,2 +1,2 @@
 include useboxnet/puzzle/data/*
-include README.rst LICENSE
+include README.rst COPYING
